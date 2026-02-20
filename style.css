@@ -1,4 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
 body {
+  background: #0b1120;
+  color: #f1f5f9;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav h2 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #38bdf8;
+}
+
+/* Header Section */
+header {
+  padding: 120px 20px;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 18px;
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+/* Button */
+button {
+  padding: 14px 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #3b82f6, #9333ea);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.6);
+}body {
     font-family: Arial, sans-serif;
     margin: 0;
     background: #0f172a;
