@@ -76,7 +76,49 @@ body {
 .card:hover {
     transform: scale(1.05);
 }
+.auth {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
 
+.login-btn, .signup-btn {
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.login-btn {
+    color: white;
+}
+
+.signup-btn {
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.progress {
+    background: #333;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background: #06b6d4;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.video-box {
+    background: #1c1c1c;
+    padding: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+}
 footer {
     padding: 20px;
     background: #111;
