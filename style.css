@@ -10,46 +10,76 @@ body {
     text-align: center;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #111;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
 .hero {
     padding: 120px 20px;
-    background: linear-gradient(to bottom, #000, #111);
 }
 
 .hero h1 {
     font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 22px;
     color: #aaa;
-    margin-bottom: 40px;
+    margin: 20px 0;
 }
 
-.start-btn {
-    display: inline-block;
-    padding: 14px 35px;
-    font-size: 18px;
+.btn {
+    padding: 12px 30px;
     background: white;
     color: black;
+    border-radius: 30px;
     text-decoration: none;
-    border-radius: 50px;
-    font-weight: 600;
-    transition: 0.3s ease;
+    font-weight: bold;
 }
 
-.start-btn:hover {
-    background: #ddd;
-    transform: scale(1.05);
+.section {
+    padding: 80px 20px;
 }
 
-.features {
-    padding: 100px 20px;
+.dark {
     background: #111;
 }
 
-.features h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
+
+.card {
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 15px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    padding: 20px;
+    background: #111;
+    color: #aaa;
+}
+
