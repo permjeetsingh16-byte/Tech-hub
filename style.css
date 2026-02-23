@@ -1,4 +1,6 @@
-/* Reset */
+/* Reset */html {
+    scroll-behavior: smooth;
+}
 * {
   margin: 0;
 /* Google Font */
